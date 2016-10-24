@@ -1,0 +1,12 @@
+sudo: required
+
+language: c
+
+services:
+    - docker
+
+script:
+    - docker build -t linkit-rtos-sdk .
+
+notifications:
+    email: false
