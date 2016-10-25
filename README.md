@@ -1,7 +1,5 @@
 # Docker container for LinkIt RTOS SDK
 
-=====
-
 ### Setup docker Env:
 
 Please see [here](https://www.docker.com/).
@@ -10,7 +8,7 @@ Please see [here](https://www.docker.com/).
 
 ```
 git clone https://github.com/iamblue/LinkIt-RTOS-SDK-Container.git linkit
-cd ./linkit
+cd linkit
 ```
 
 ### Install this docker container:
@@ -28,6 +26,5 @@ docker run -it linkit-rtos-sdk /bin/bash
 ### Go into docker , and build your LinkIt RTOS SDK code:
 
 ```
-cd ~
 ./build.sh mt7687_hdk iot_sdk_demo
 ```
