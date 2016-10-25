@@ -20,7 +20,7 @@ docker build -t linkit-rtos-sdk .
 ### Run docker script:
 
 ```
-docker run -it linkit-rtos-sdk /bin/bash
+docker run -it linkit-rtos-sdk
 ```
 
 ### Go into docker , and build your LinkIt RTOS SDK code:
